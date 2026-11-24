@@ -1,4 +1,4 @@
-FROM ghcr.io/cirruslabs/flutter:stable
+FROM ghcr.io/cirruslabs/flutter:3.44.0
 WORKDIR /app
 COPY pubspec.* ./
 RUN flutter pub get
